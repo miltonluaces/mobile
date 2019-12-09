@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff385f89">
+    <ImageView
+        android:src="@drawable/logoCel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:scaleType="matrix"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true"
+        android:minWidth="@android:dimen/app_icon_size"
+        android:minHeight="@android:dimen/app_icon_size"
+        android:baselineAlignBottom="true"
+        android:clickable="true" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VENTAS"
+        android:layout_marginTop="@dimen/smaHorMargin"
+        android:fadingEdge="none" />
+    <Button
+        android:text="INVENTARIOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <Button
+        android:text="NIVEL DE SERVICIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+    <Button
+        android:text="ROTACIÓN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:fadingEdge="horizontal" />
+    <Button
+        android:text="VENTA PERDIDA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+    <Button
+        android:text="CONTROL DE SUMINISTRO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+    <Button
+        android:text="ALERTAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+    <RadioGroup
+        android:minHeight="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1"
+        android:gravity="clip_vertical"
+        android:layout_marginBottom="0.0dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Total     "
+            android:id="@+id/radioButton1"
+            android:layout_marginLeft="@dimen/smaHorMargin" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEDIS     "
+            android:id="@+id/radioButton2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiendas"
+            android:id="@+id/radioButton3" />
+    </RadioGroup>
+</LinearLayout>

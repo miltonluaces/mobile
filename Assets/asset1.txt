@@ -1,0 +1,4 @@
+serviceLevel	95
+inventory	12345
+rotation	3.4
+lostSales	54321

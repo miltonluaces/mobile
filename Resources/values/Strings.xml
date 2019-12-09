@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="grlRep">Reporte General</string>
+	<string name="stoRep">Reporte por Tiendas</string>
+	<string name="invent">Inventario</string>
+	<string name="service">Nivel de Servicio</string>
+	<string name="rotation">Rotación</string>
+	<string name="lostSales">Venta Perdida</string>
+	<string name="supply">Suministros</string>
+	<string name="warnings">Alertas</string>
+	<string name="app_name">GUI</string>
+
+	<dimen name="smaHorMargin">10dp</dimen>
+	<dimen name="medHorMargin">20dp</dimen>
+	<dimen name="bigHorMargin">30dp</dimen>
+    
+</resources>

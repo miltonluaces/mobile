@@ -1,0 +1,29 @@
+Set	General
+Subset	Total
+Line	Total	95,12345,34,54321,63,66
+Subset	Cedis
+Line	Cedis1	95, 12345, 3.4, 54321, 44
+Line	Cedis2	95, 12345, 3.4, 54321, 78
+Subset	Stores
+Line	Store1	95, 12345, 3.4, 54321, 56
+Line	Store2	95, 12345, 3.4, 54321, 68
+Line	Store3	95, 12345, 3.4, 54321, 68
+Line	Store4	95, 12345, 3.4, 54321, 68
+Line	Store5	95, 12345, 3.4, 54321, 68
+Line	Store6	95, 12345, 3.4, 54321, 68
+Set	TimeSeries
+Subset	Total
+Line	Sales	4556,3444,3222,2333,2344,2333,1122,2334,4556, 3456, 2334, 2333, 2344, 5667, 3899
+Line	Invent	4556,3444,3222,2333,2344,2333,1122,2334,4556, 3456, 2334, 2333, 2344, 5667, 8899
+Line	Service	4556,3444,3222,2333,2344,2333,1122,2334,4556, 3456, 2334, 2333, 2344, 5667, 8899
+Line	Rotat	4556,3444,3222,2333,2344,2333,1122,2334,4556, 3456, 2334, 2333, 2344, 5667, 8899
+Line	LostSal	4556,3444,3222,2333,2344,2333,1122,2334,4556, 3456, 2334, 2333, 2344, 5667, 8899
+Set	Supplies
+Subset	Total
+Line	Proveedor1	45, 43434, 4.5
+Line	Proveedor2	44, 32333, 3.0
+Line	Proveedor3	47, 24444, 2.2
+Set	Warnings
+Subset	Total
+Line	Process4	3
+Line	Overstock	2
